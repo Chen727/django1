@@ -7,3 +7,5 @@ class UserInfo(models.Model):
     number=models.CharField(max_length=32)
 class test(models.Model):
     test1=models.CharField(max_length=32)
+class test2(models.Model):
+    test2=models.CharField(max_length=32)
